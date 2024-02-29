@@ -27,7 +27,7 @@ flutter项目中，使用kotlin语言，实现对接穿山甲gromore功能插件
 ## 开屏广告
 
 ``` dart
-  FlutterPangleAds.showSplashAd(
+  MiFunGromore.showSplashAd(
      AdsConfig.splashId,
      logo: AdsConfig.logo,
      timeout: 3.5,
@@ -46,7 +46,7 @@ flutter项目中，使用kotlin语言，实现对接穿山甲gromore功能插件
 ```
 
 ## 激励广告
-```
+``` dart
 await MiFunGromore.showRewardVideoAd(
   AppConfig.gRewardVideoSlot,
   customData: "customData",
